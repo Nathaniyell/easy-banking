@@ -11,20 +11,18 @@ const cardElement = cardData.map((card) => {
       text={card.text}
     />
   )
-
-
-  console.log(cardData)
 })
 
 const Body = () => {
   return (
     <div className='body--section'>
-      <h1 className='header'>Why chose Easybank?</h1>
+      <div className='new-body'><h1 className='header'>Why chose Easybank?</h1>
       <p>We leverage Open Banking to turn your bank account into your financial hub. Control your finances like never before.</p>
 
       <div className='grid-cards'>
         {cardElement}
-      </div>
+      </div></div>
+      
 
       
     </div>

@@ -4,7 +4,7 @@ import Hero from '../Assets/image-mockups.png'
 
 const HeroSection = () => {
   return (
-    <section>
+    <section className='first--section'>
       <div className='hero--section'>
         <img src={Hero} alt='' className='hero--img' />
       </div>

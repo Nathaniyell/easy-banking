@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const Articles = ({image, header, small, paragraph}) => {
     return (
         <div className='article'>

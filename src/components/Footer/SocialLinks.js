@@ -6,15 +6,18 @@ import Pinterest from '../../Assets/icon-pinterest.svg'
 import Instagram from '../../Assets/icon-instagram.svg'
 
 
-const Socials = ({link, title}) => {
+const Socials = ({ link, title }) => {
     return (
-      <div>
-          <img src={link} alt={title} title={title} className='footer-sL' />
-      </div>
+        <div data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        data-aos-duration="1000">
+            <img src={link} alt={title} title={title} className='footer-sL' />
+        </div>
     )
-  } 
+}
 
-const socialLinks =[
+const socialLinks = [
     {
         id: 1,
         title: 'Facebook',
@@ -42,13 +45,13 @@ const socialLinks =[
     }
 ]
 
-const LinkElements = socialLinks.map((each)=>{
-    return(
+const LinkElements = socialLinks.map((each) => {
+    return (
         <Socials
-        key={each.id}
-        link={each.link}
-        title={each.title}
-    />
+            key={each.id}
+            link={each.link}
+            title={each.title}
+        />
     )
 })
 

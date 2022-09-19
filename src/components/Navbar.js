@@ -20,8 +20,9 @@ const Navbar = () => {
         <li>Blog</li>
         <li>Careers</li>
       </ul>
+      <a href='#' className='hero-link nav-a'>Request Invite</a>
       <button className='hambuga' onClick={handleNavIcon}>
-        {responsive ? <img  src={close}/> : <img  src={hamburger}/>}
+        {responsive ? <img  src={close} alt='close' /> : <img  src={hamburger} alt='bars' />}
       </button>
 
     </nav>

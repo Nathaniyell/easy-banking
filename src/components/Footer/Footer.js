@@ -6,14 +6,17 @@ import Linkelements from './SocialLinks'
 
 const Footer = () => {
   return (
-    <div className='footer'>
+    <div className='footer' data-aos="fade-up"
+    data-aos-duration="1000">
+
         <div className='footer--div1'>
             <div>                
                 <img src={logo} alt='' className='footer-logo'/>
-            </div>
             <div className='footer-links'>
             {Linkelements}
             </div>
+            </div>
+           
             <div className='footer-links2'>
                 <FooterPages 
                 a={'About Us'}
@@ -32,9 +35,9 @@ const Footer = () => {
         <div className='footer-aside'>
         <a href='#' className='hero-link'>Request Invite</a>
         <p>© Easybank. All Rights Reserved</p>
-        
-        </div>
         <pre>Built by Nathan</pre>
+        </div>
+       
     </div>
   )
 }
