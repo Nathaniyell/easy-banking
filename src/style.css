@@ -375,7 +375,7 @@ small {
         place-items: center;
     }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
     
     .grid-articles {
         display: grid;
@@ -458,17 +458,19 @@ small {
     }
     .footer{
        flex-direction: row;
+       justify-content: space-between;
     }
     .footer--div1{
         position: relative;
         flex-direction: row;
-        width: 60%;
+        width: 55%;
+        justify-content: space-between;
      
     }
 .footer-aside{
     position: absolute;
     right: 80px;
-   bottom: auto;
+   bottom: 100px;
     height: 200px;
 }
 
