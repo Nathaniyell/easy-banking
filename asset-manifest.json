@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/easy-banking/static/css/main.273940a5.css",
-    "main.js": "/easy-banking/static/js/main.b2d2f1bd.js",
+    "main.css": "/easy-banking/static/css/main.6ae55074.css",
+    "main.js": "/easy-banking/static/js/main.59452186.js",
     "static/media/image-currency.jpg": "/easy-banking/static/media/image-currency.1b385bf9f62bf25ef22d.jpg",
     "static/media/image-restaurant.jpg": "/easy-banking/static/media/image-restaurant.1951b57675babfd83c6c.jpg",
     "static/media/image-mockups.png": "/easy-banking/static/media/image-mockups.48d35b175fe3d36de4ee.png",
@@ -21,11 +21,11 @@
     "static/media/icon-facebook.svg": "/easy-banking/static/media/icon-facebook.1e9b33385e6dfe7a61acbff13373209c.svg",
     "static/media/icon-close.svg": "/easy-banking/static/media/icon-close.c2e36e0469b3b1e6c27328356ce18aed.svg",
     "static/media/icon-hamburger.svg": "/easy-banking/static/media/icon-hamburger.b0d311feac968ee5feab7333de091d7f.svg",
-    "main.273940a5.css.map": "/easy-banking/static/css/main.273940a5.css.map",
-    "main.b2d2f1bd.js.map": "/easy-banking/static/js/main.b2d2f1bd.js.map"
+    "main.6ae55074.css.map": "/easy-banking/static/css/main.6ae55074.css.map",
+    "main.59452186.js.map": "/easy-banking/static/js/main.59452186.js.map"
   },
   "entrypoints": [
-    "static/css/main.273940a5.css",
-    "static/js/main.b2d2f1bd.js"
+    "static/css/main.6ae55074.css",
+    "static/js/main.59452186.js"
   ]
 }
