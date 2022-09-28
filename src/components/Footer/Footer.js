@@ -10,7 +10,7 @@ const Footer = () => {
     data-aos-duration="1000">
 
         <div className='footer--div1'>
-            <div>                
+            <div className='foot'>                
                 <img src={logo} alt='' className='footer-logo'/>
             <div className='footer-links'>
             {Linkelements}
@@ -33,7 +33,7 @@ const Footer = () => {
             </div>
         </div>
         <div className='footer-aside'>
-        <a href='#' className='hero-link'>Request Invite</a>
+        <a href='#' className='hero-link footer-hL'>Request Invite</a>
         <p>© Easybank. All Rights Reserved</p>
         <pre>Built by Nathan</pre>
         </div>

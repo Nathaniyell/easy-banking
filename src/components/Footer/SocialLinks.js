@@ -8,10 +8,7 @@ import Instagram from '../../Assets/icon-instagram.svg'
 
 const Socials = ({ link, title }) => {
     return (
-        <div data-aos="fade-right"
-        data-aos-offset="300"
-        data-aos-easing="ease-in-sine"
-        data-aos-duration="1000">
+        <div>
             <img src={link} alt={title} title={title} className='footer-sL' />
         </div>
     )
